@@ -4,7 +4,7 @@ default: &default
   pool: 5
   username: weston
   password:
-  host: 192.168.59.103
+  host: 127.0.0.1
 
 development:
   <<: *default
