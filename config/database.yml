@@ -2,9 +2,9 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: weston
-  password:
-  host: 127.0.0.1
+  username: postgres
+  password: postgres
+  host: <%= ENV['PG_HOST'] %> 
 
 development:
   <<: *default
